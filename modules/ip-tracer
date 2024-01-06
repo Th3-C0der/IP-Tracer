@@ -1,0 +1,11 @@
+# Tool Name :- IP-Tracer
+# Author :- Th3Coder
+# Date :- 01-01-2024
+# Powered By :- Th3-IP-API
+if [ -d /data/data/com.termux/files/usr/share ];then
+  cd /data/data/com.termux/files/usr/share/IP-Tracer
+  exec bash trace $@
+elif [ -d /usr/share ];then
+  cd /usr/share/IP-Tracer
+  exec bash trace $@
+fi
