@@ -34,7 +34,7 @@ case "$1" in
     php modules/.uninstall.php
     exit
   ;;
-   s)
+   -s)
     php .IP-Tracer.php
     exit
   ;;
