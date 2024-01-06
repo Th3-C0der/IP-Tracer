@@ -34,6 +34,8 @@ case "$1" in
     php modules/.uninstall.php
     exit
   ;;
+   s)
+    php .IP-Tracer.php
   *)
     echo "Usage: ip-tracer [command]... [arguments]..."
     echo " Commands:"
