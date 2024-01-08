@@ -31,7 +31,6 @@ function trac() {
 EOL;
 
   if($data['status'] == 'success') {
-    echo "\n\033[0;32m By Th3Coder \033";
     echo "\n ".$FCL."IP Address    ".$MCL."   ".$data['query'];
     echo "\n ".$FCL."Country code  ".$MCL."   ".$data['countryCode'];
     echo "\n ".$FCL."Country       ".$MCL."   ".$data['country'];
