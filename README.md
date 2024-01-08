@@ -1,3 +1,5 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Glitch&pause=1000&color=00FF00&random=false&width=435&lines=IP-TRACER+By+%5BTh3-C0der%5D)](https://Th3-C0der.github.io)
+
 ## What is IP-Tracer ?
 
 IP-Tracer is used to track an ip address. IP-Tracer is developed for Termux and Linux based systems. you can easily retrieve ip address information using IP-Tracer. IP-Tracer use ip-api to track ip address.
