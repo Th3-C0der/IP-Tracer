@@ -25,6 +25,7 @@ IP-Tracer is used to track an ip address. IP-Tracer is developed for Termux and 
 
 
 ## How to use IP-Tracer
+
 * `trace -s` to start ip tracer menu.
 
 * `trace -m` to track your own ip address.
@@ -34,6 +35,8 @@ IP-Tracer is used to track an ip address. IP-Tracer is developed for Termux and 
 * `trace` for more information.
 
 **OR**
+
+* `ip-tracer -s` to start ip tracer menu.
 
 * `ip-tracer -m` to track your own ip address.
 
