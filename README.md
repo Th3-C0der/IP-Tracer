@@ -45,7 +45,6 @@ IP-Tracer is used to track an ip address. IP-Tracer is developed for Termux and 
 * `ip-tracer` for more information.
 
 ## Run IP-Tracer In Google Cloud Shell
-**Recommended On PC**
 <p align="left">
   <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/Th3-C0der/IP-Tracer.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
 </p>
