@@ -8,13 +8,16 @@ class set {
       system("rm -rf /data/data/com.termux/files/usr/share/IP-Tracer");
       system("rm -rf /data/data/com.termux/files/usr/bin/ip-tracer");
       system("rm -rf /data/data/com.termux/files/usr/bin/trace");
+      system("rm -rf /data/data/com.termux/files/usr/bin/Th3");
     } elseif ($system=="ubuntu") {
       system("sudo rm -rf /usr/bin/ip-tracer");
       system("sudo rm -rf /usr/bin/trace");
+      system("sudo rm -rf /usr/bin/Th3");
       system("sudo rm -rf /usr/share/IP-Tracer");
     } else {
       system("rm -rf /usr/bin/ip-tracer");
       system("rm -rf /usr/bin/trace");
+      system("rm -rf /usr/bin/Th3");
       system("rm -rf /usr/share/IP-Tracer");
     }
     
@@ -22,18 +25,24 @@ class set {
     if ($system=="termux") {
       system("mv -v modules/ip-tracer /data/data/com.termux/files/usr/bin/");
       system("mv -v modules/trace /data/data/com.termux/files/usr/bin/");
+      system("mv -v modules/Th3 /data/data/com.termux/files/usr/bin/");
       system("chmod +x /data/data/com.termux/files/usr/bin/ip-tracer trace");
       system("chmod +x /data/data/com.termux/files/usr/bin/trace");
+      system("chmod +x /data/data/com.termux/files/usr/bin/Th3");
     } elseif ($system=="ubuntu") {
       system("sudo mv -v modules/ip-tracer /usr/bin/");
       system("sudo mv -v modules/trace /usr/bin/");
+      system("sudo mv -v modules/Th3 /usr/bin/");
       system("sudo chmod +x /usr/bin/ip-tracer");
       system("sudo chmod +x /usr/bin/trace");
+      system("sudo chmod +x /usr/bin/Th3");
     } else {
       system("mv -v modules/ip-tracer /usr/bin/");
       system("mv -v modules/trace /usr/bin/");
+      system("mv -v modules/Th3 /usr/bin/");
       system("chmod +x /usr/bin/ip-tracer");
       system("chmod +x /usr/bin/trace");
+      system("chmod +x /usr/bin/Th3");
     }
 
     // copy files from IP-Tracer to .IP-Tracer directory.
@@ -92,7 +101,7 @@ EOL;
 | \033[01;32mtracer --help\033[01;37m         | \033[01;33mFor more information\033[01;37m |
  ----------------------------------------------
 
-\033[01;31mNote :- ip-api will automatically ban any IP addresses doing over 150 requests per minute.\033[00m
+\033[01;31mNote :- Th3-Ip-Api will automatically ban any IP addresses doing over 150 requests per minute.\033[00m
 
 
 EOL;
