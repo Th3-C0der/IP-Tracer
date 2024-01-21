@@ -49,4 +49,4 @@ IP-Tracer is used to track an ip address. IP-Tracer is developed for Termux and 
   <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/Th3-C0der/IP-Tracer.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
 </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=th3-c0der&label=Profile%20views&color=0e75b6&style=flat" alt="th3-c0der" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Th3-C0der&label=Profile%20views&color=0e75b6&style=flat" alt="Th3-C0der" /> </p>
